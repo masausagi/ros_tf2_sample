@@ -127,7 +127,11 @@ robot → camera
 一つずつターミナルを開こう
 ```
 rosrun ros_tf2_sample sample1_tf2_connection _pframe:=map _cframe:=robot _x:=0.5 _y:=0 _z:=0
+```
+```
 rosrun ros_tf2_sample sample1_tf2_connection _pframe:=map _cframe:=objects _x:=0 _y:=0.5 _z:=0
+```
+```
 rosrun ros_tf2_sample sample1_tf2_connection _pframe:=robot _cframe:=camera _x:=0 _y:=0.5 _z:=0
 ```
 RVIZを再度起動
@@ -160,6 +164,9 @@ mapを原点として，objectsとrobotのフレームの位置関係を記述�
 以下のコマンドでOK その後，いつものRVIZ
 ```
 rosrun ros_tf2_sample samle2_tf2_moving_by_keyboard _qframe:=map _cframe:=robot
+```
+```
+rosrun rviz rviz -f map
 ```
 キーボードでWASDで，上左下右に対応するようにrobotが移動する．
 
