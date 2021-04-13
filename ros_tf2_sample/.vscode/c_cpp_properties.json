@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/inagawa/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/inagawa/catkin_ws/src/ddynamic_reconfigure/include/**",
+        "/home/inagawa/catkin_ws/src/my_pcl_tutorial/include/**",
+        "/home/inagawa/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/inagawa/catkin_ws/src/ros_tf2_sample/include/**",
+        "/home/inagawa/catkin_ws/src/test_tf2/include/**",
+        "/home/inagawa/catkin_ws/src/using_marker/include/**",
+        "/home/inagawa/catkin_ws/src/velodyne/velodyne_driver/include/**",
+        "/home/inagawa/catkin_ws/src/velodyne/velodyne_laserscan/include/**",
+        "/home/inagawa/catkin_ws/src/velodyne/velodyne_pcl/include/**",
+        "/home/inagawa/catkin_ws/src/velodyne/velodyne_pointcloud/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
